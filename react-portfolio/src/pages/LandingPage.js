@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import "./LandingPage.css";
+import github from "../images/github-big-.png";
+import arm from "../images/github-big-arm.png";
 
 function LandingPage() {
   const [click, setClick] = useState(false);
 
   return (
     <div id={click ? "landing__container-dark" : "landing__container"}>
+      <a className="github" href="https://github.com/KimseungMoo">
+        <div className="triangle"></div>
+        <img className="github__logo" src={github} />
+        <img className="github__arm" src={arm} />
+      </a>
       <div className={click ? "landing__body-dark" : "landing__body"}>
         <i className="fas fa-laptop-code"></i>
         <div className="landing__head">김승무</div>
