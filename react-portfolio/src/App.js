@@ -1,17 +1,12 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
-
 import LandingPage from "./pages/LandingPage";
+import About from "./pages/About";
 
 function App() {
   return (
     <>
       <LandingPage />
+      <About />
     </>
   );
 }
