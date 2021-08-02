@@ -51,7 +51,7 @@ function LandingPage() {
           {text}
           <span className="blink">|</span>
         </div>
-        <div className="landing__content">프론트엔드 개발자 김승무 입니다.</div>
+        {/* <div className="landing__content">프론트엔드 개발자 김승무 입니다.</div> */}
       </div>
       <a className={click ? "landing__mouse-dark" : "landing__mouse"}>
         <span></span>
