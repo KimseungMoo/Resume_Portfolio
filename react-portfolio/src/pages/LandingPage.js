@@ -30,7 +30,6 @@ function LandingPage({ click, setClick }) {
         <img className="github__arm" src={arm} />
       </a>
       <div className={click ? "landing__body-dark" : "landing__body"}>
-        {/* <i className="fas fa-laptop-code"></i> */}
         <div className="landing__body-monitor">
           <img className="monitor" src={monitor}></img>
           <label className="landing__switch">
@@ -50,11 +49,9 @@ function LandingPage({ click, setClick }) {
           {text}
           <span className="blink">|</span>
         </div>
-        {/* <div className="landing__content">프론트엔드 개발자 김승무 입니다.</div> */}
+        <div className="in__progress">작업 진행 중...</div>
       </div>
-      <a className={click ? "landing__mouse-dark" : "landing__mouse"}>
-        <span></span>
-      </a>
+      <span className={click ? "landing__mouse-dark" : "landing__mouse"}></span>
     </div>
   );
 }

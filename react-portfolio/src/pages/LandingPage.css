@@ -1,3 +1,6 @@
+.in__progress {
+  font-size: 30px;
+}
 #landing__container {
   background-color: rgb(233, 213, 163);
   width: 100%;
@@ -165,7 +168,7 @@ input:checked + .slider:before {
   display: none;
 }
 
-.landing__mouse span {
+.landing__mouse {
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -176,7 +179,7 @@ input:checked + .slider:before {
   border-radius: 50px;
 }
 
-.landing__mouse-dark span {
+.landing__mouse-dark {
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -187,7 +190,7 @@ input:checked + .slider:before {
   border-radius: 50px;
 }
 
-.landing__mouse span::before {
+.landing__mouse::before {
   position: absolute;
   top: 10px;
   left: 50%;
@@ -201,7 +204,7 @@ input:checked + .slider:before {
   animation: scroll-down 2s infinite;
 }
 
-.landing__mouse-dark span::before {
+.landing__mouse-dark::before {
   position: absolute;
   top: 10px;
   left: 50%;

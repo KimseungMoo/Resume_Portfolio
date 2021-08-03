@@ -47,25 +47,21 @@
   width: 250px;
   height: 270px;
   padding: 15px 15px 0 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .about__photo-react {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 7px;
+  font-size: 50px;
+  padding-bottom: 7px;
 }
 
 .about__photo-js {
-  width: 65px;
-  height: 65px;
+  font-size: 50px;
   margin: 0 18px 0 15px;
 }
 
 .about__photo-ts {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 7px;
+  font-size: 50px;
 }
 
 .about__content {
