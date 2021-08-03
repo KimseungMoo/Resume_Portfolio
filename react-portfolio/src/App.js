@@ -4,6 +4,7 @@ import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Skill from "./pages/Skill";
+import Experience from "./pages/Experience";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <About click={click} />
       <Project click={click} />
       <Skill />
+      <Experience click={click} />
     </>
   );
 }
