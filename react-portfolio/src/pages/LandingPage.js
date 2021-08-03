@@ -4,8 +4,7 @@ import github from "../images/github-big-.png";
 import arm from "../images/github-big-arm.png";
 import monitor from "../images/monitor1.svg";
 
-function LandingPage() {
-  const [click, setClick] = useState(false);
+function LandingPage({ click, setClick }) {
   const [count, setCount] = useState(0);
   const [text, setText] = useState("");
   const txt = "프론트엔드 개발자 김승무입니다.";

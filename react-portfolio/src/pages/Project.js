@@ -3,14 +3,14 @@ import "./Project.css";
 import team from "../images/team.jpg";
 import game from "../images/game.jpg";
 
-const Project = () => {
+const Project = ({ click }) => {
   return (
-    <div id="project__container">
+    <div id={click ? "project__container-dark" : "project__container"}>
       <div className="project__title">PROJECTS</div>
       <div className="project__body">
         <a
-          className="project__remember"
-          href="https://www.projectremember.shop/"
+          className={click ? "project__remember-dark" : "project__remember"}
+          href="https://github.com/codestates/Remember-client"
           target="_blank"
         >
           <img src={team}></img>
@@ -18,8 +18,8 @@ const Project = () => {
           <div className="project__name">REMEMBER</div>
         </a>
         <a
-          className="project__forhobby"
-          href="http://4-for-hobby.s3-website.ap-northeast-2.amazonaws.com/"
+          className={click ? "project__forhobby-dark" : "project__forhobby"}
+          href="https://github.com/codestates/4-for-hobby-client"
           target="_blank"
         >
           <img src={game}></img>
