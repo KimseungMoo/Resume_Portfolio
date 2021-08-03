@@ -3,6 +3,7 @@ import "./App.css";
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
 import Project from "./pages/Project";
+import Skill from "./pages/Skill";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -12,6 +13,7 @@ function App() {
       <LandingPage click={click} setClick={setClick} />
       <About click={click} />
       <Project click={click} />
+      <Skill />
     </>
   );
 }
