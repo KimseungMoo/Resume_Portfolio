@@ -9,7 +9,8 @@ const Footer = () => {
           <i className="fab fa-github"></i>
         </a>
         <a href="https://tobe-engineer.tistory.com/" target="_blank">
-          <i className="fab fa-blogger"></i>
+          {/* <i className="fab fa-blogger"></i> */}
+          <i class="fas fa-blog"></i>
         </a>
       </div>
       <div className="footer__text">Copyright © Seungmoo Kim</div>
