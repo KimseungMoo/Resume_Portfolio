@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Skill from "./pages/Skill";
 import Experience from "./pages/Experience";
+import Footer from "./pages/Footer";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Project click={click} />
       <Skill />
       <Experience click={click} />
+      <Footer />
     </>
   );
 }
