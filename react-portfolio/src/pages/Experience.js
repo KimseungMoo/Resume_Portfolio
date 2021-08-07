@@ -23,6 +23,7 @@ const Experience = ({ click }) => {
             Advanced software engineering, Immersive program (28기 수료)
           </div>
           <div className="experience__content-body">
+            <span className="experience__content-tag">Full-stack</span>
             <span className="experience__content-tag">JavaScript</span>
             <span className="experience__content-tag">React</span>
             <span className="experience__content-tag">NodeJS</span>
@@ -31,9 +32,10 @@ const Experience = ({ click }) => {
           <div className="experience__content-body">
             <span className="experience__content-tag">Algorithm</span>
             <span className="experience__content-tag">Data Structure</span>
+            <span className="experience__content-tag">Git work flow</span>
           </div>
           <div className="experience__content-body">
-            <span className="experience__content-tag">Git work flow</span>
+            <span className="experience__content-tag">Pair Programming</span>
             <span className="experience__content-tag">Team Project</span>
           </div>
         </div>
