@@ -8,6 +8,7 @@
   background-color: rgb(73, 73, 73);
   width: 100%;
   height: 500px;
+  color: white;
 }
 
 .experience__title {
@@ -36,6 +37,15 @@
   transform: translate(-50%, 0);
 }
 
+.experience__timeline-dark {
+  position: absolute;
+  width: 5px;
+  height: 300px;
+  background-color: rgb(204, 204, 204);
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .experience__codestates {
   width: 1000px;
   height: 250px;
@@ -54,10 +64,32 @@
     sans-serif;
 }
 
+.experience__codestates-date-dark {
+  position: absolute;
+  top: 5%;
+  right: -48%;
+  color: #212529;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: rgb(160, 160, 160);
+}
+
 .experience__codestates-content {
   width: 400px;
   height: 200px;
   background-color: white;
+  position: absolute;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.experience__codestates-content-dark {
+  background-color: rgb(204, 204, 204);
+  width: 400px;
+  height: 200px;
   position: absolute;
   margin-left: 50px;
   padding: 20px;
@@ -74,6 +106,17 @@
   border-bottom: 10px solid transparent;
 }
 
+.experience__codestates-arrow-dark {
+  position: absolute;
+  margin-left: 378px;
+  width: 0px;
+  height: 0px;
+  margin-top: 5px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid rgb(204, 204, 204);
+  border-bottom: 10px solid transparent;
+}
+
 .experience__codestates-icon {
   position: absolute;
   left: 50%;
@@ -87,8 +130,26 @@
   padding: 15px;
 }
 
+.experience__codestates-icon-dark {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: rgb(114, 114, 114);
+  border: 3px solid rgb(202, 202, 202);
+  text-align: center;
+  padding: 15px;
+}
+
 .experience__codestates i {
   color: white;
+  font-size: 32px;
+}
+
+.experience__codestates-icon-dark i {
+  color: #eeeeee;
   font-size: 32px;
 }
 
@@ -105,7 +166,29 @@
     sans-serif;
 }
 
+.experience__content-title-dark {
+  padding: 5px 6px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
 .experience__content-sub {
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.experience__content-sub-dark {
+  color: black;
   margin-top: 10px;
   font-weight: 500;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -133,6 +216,17 @@
   margin-bottom: 5px;
 }
 
+.experience__content-tag-dark {
+  background-color: rgb(116, 116, 116);
+  width: 100px;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
 .experience__hourglass-icon {
   position: absolute;
   left: 50%;
@@ -146,11 +240,29 @@
   padding: 15px;
 }
 
+.experience__hourglass-icon-dark {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: rgb(114, 114, 114);
+  border: 3px solid rgb(202, 202, 202);
+  text-align: center;
+  padding: 15px;
+}
+
+.experience__hourglass-icon-dark i {
+  color: #eeeeee;
+  font-size: 32px;
+}
+
 .experience__hourglass {
   height: 100px;
 }
 
-.experience__hourglass i {
+.experience__hourglass-icon i {
   color: white;
   font-size: 32px;
 }
