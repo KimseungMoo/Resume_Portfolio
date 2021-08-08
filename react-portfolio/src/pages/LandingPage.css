@@ -344,3 +344,38 @@ input:checked + .slider:before {
     opacity: 0;
   }
 }
+
+@media (max-width: 640px) {
+  .landing__head {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  .landing__head {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 515px) {
+  .landing__head {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 450px) {
+  .landing__head {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .landing__head {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 350px) {
+  .landing__head {
+    font-size: 25px;
+  }
+}
