@@ -266,24 +266,26 @@
 }
 @media (max-width: 500px) {
   .about__content {
-    width: 400px;
-    height: 280px;
+    width: 430px;
+    height: 260px;
   }
 }
 
 @media (max-width: 450px) {
+  #about__container {
+    height: 930px;
+  }
   .about__content {
     width: 350px;
-    height: 280px;
+    height: 300px;
   }
 }
 
 @media (max-width: 400px) {
   #about__container {
-    height: 910px;
+    height: 920px;
   }
   .about__content {
     width: 350px;
-    height: 290px;
   }
 }
