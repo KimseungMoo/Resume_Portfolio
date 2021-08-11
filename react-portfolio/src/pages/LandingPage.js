@@ -49,7 +49,7 @@ function LandingPage({ click, setClick }) {
           {text}
           <span className="blink">|</span>
         </div>
-        {/* <div className="in__progress">작업 진행 중...</div> */}
+        <div className="in__progress">작업 진행 중...</div>
       </div>
       <span className={click ? "landing__mouse-dark" : "landing__mouse"}></span>
     </div>
