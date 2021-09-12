@@ -220,7 +220,6 @@
 
 .experience__content-tag-dark {
   background-color: rgb(116, 116, 116);
-  width: 100px;
   border-radius: 20px;
   margin-right: 10px;
   padding: 5px;
@@ -273,7 +272,13 @@
   .experience__timeline {
     display: none;
   }
+  .experience__timeline-dark {
+    display: none;
+  }
   #experience__container {
+    height: 400px;
+  }
+  #experience__container-dark {
     height: 400px;
   }
   .experience__codestates-content {
@@ -283,22 +288,47 @@
     left: 15%;
     margin: 0;
   }
+  .experience__codestates-content-dark {
+    width: 70%;
+    height: 180px;
+    position: absolute;
+    left: 15%;
+    margin: 0;
+  }
   .experience__codestates-icon {
+    display: none;
+  }
+  .experience__codestates-icon-dark {
     display: none;
   }
   .experience__codestates-icon i {
     display: none;
   }
+  .experience__codestates-icon-dark i {
+    display: none;
+  }
   .experience__codestates-arrow {
+    display: none;
+  }
+  .experience__codestates-arrow-dark {
     display: none;
   }
   .experience__codestates-date {
     display: none;
   }
+  .experience__codestates-date-dark {
+    display: none;
+  }
   .experience__hourglass-icon {
     display: none;
   }
+  .experience__hourglass-icon-dark {
+    display: none;
+  }
   .experience__hourglass i {
+    display: none;
+  }
+  .experience__hourglass-dark i {
     display: none;
   }
 }
@@ -306,9 +336,15 @@
   .experience__codestates-content {
     height: 210px;
   }
+  .experience__codestates-content-dark {
+    height: 210px;
+  }
 }
 @media (max-width: 520px) {
   .experience__codestates-content {
+    height: 240px;
+  }
+  .experience__codestates-content-dark {
     height: 240px;
   }
 }
@@ -316,17 +352,29 @@
   .experience__codestates-content {
     height: 260px;
   }
+  .experience__codestates-content-dark {
+    height: 260px;
+  }
 }
 @media (max-width: 400px) {
   #experience__container {
     height: 450px;
   }
+  #experience__container-dark {
+    height: 450px;
+  }
   .experience__codestates-content {
+    height: 280px;
+  }
+  .experience__codestates-content-dark {
     height: 280px;
   }
 }
 @media (max-width: 350px) {
   .experience__codestates-content {
+    height: 310px;
+  }
+  .experience__codestates-content-dark {
     height: 310px;
   }
 }
