@@ -15,8 +15,10 @@
 
 .skill__body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
+  list-style: none;
 }
 
 .skill__imgbox {
@@ -72,4 +74,22 @@
 .node {
   color: white;
   font-size: 60px;
+}
+
+@media (max-width: 1185px) {
+  #skill__container {
+    height: 450px;
+  }
+}
+
+@media (max-width: 665px) {
+  #skill__container {
+    height: 550px;
+  }
+}
+
+@media (max-width: 400px) {
+  #skill__container {
+    height: 800px;
+  }
 }
