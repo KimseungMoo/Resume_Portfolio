@@ -53,8 +53,8 @@ const Experience = ({ click }) => {
           >
             Advanced software engineering, Immersive program (28기 수료)
           </div>
-          <div className="experience__content-body">
-            <span
+          <ul className="experience__content-body">
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -62,8 +62,8 @@ const Experience = ({ click }) => {
               }
             >
               Full-stack
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -71,8 +71,8 @@ const Experience = ({ click }) => {
               }
             >
               JavaScript
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -80,8 +80,8 @@ const Experience = ({ click }) => {
               }
             >
               React
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -89,8 +89,8 @@ const Experience = ({ click }) => {
               }
             >
               NodeJS
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -98,10 +98,9 @@ const Experience = ({ click }) => {
               }
             >
               AWS
-            </span>
-          </div>
-          <div className="experience__content-body">
-            <span
+            </li>
+
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -109,8 +108,8 @@ const Experience = ({ click }) => {
               }
             >
               Algorithm
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -118,8 +117,8 @@ const Experience = ({ click }) => {
               }
             >
               Data Structure
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -127,10 +126,9 @@ const Experience = ({ click }) => {
               }
             >
               Git work flow
-            </span>
-          </div>
-          <div className="experience__content-body">
-            <span
+            </li>
+
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -138,8 +136,8 @@ const Experience = ({ click }) => {
               }
             >
               Pair Programming
-            </span>
-            <span
+            </li>
+            <li
               className={
                 click
                   ? "experience__content-tag-dark"
@@ -147,8 +145,8 @@ const Experience = ({ click }) => {
               }
             >
               Team Project
-            </span>
-          </div>
+            </li>
+          </ul>
         </div>
 
         <div

@@ -203,11 +203,13 @@
     sans-serif;
   font-size: 12px;
   font-weight: 500;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .experience__content-tag {
   background-color: rgb(249, 245, 234);
-  width: 100px;
   border-radius: 20px;
   margin-right: 10px;
   padding: 5px;
@@ -265,4 +267,66 @@
 .experience__hourglass-icon i {
   color: white;
   font-size: 32px;
+}
+
+@media (max-width: 1050px) {
+  .experience__timeline {
+    display: none;
+  }
+  #experience__container {
+    height: 400px;
+  }
+  .experience__codestates-content {
+    width: 70%;
+    height: 180px;
+    position: absolute;
+    left: 15%;
+    margin: 0;
+  }
+  .experience__codestates-icon {
+    display: none;
+  }
+  .experience__codestates-icon i {
+    display: none;
+  }
+  .experience__codestates-arrow {
+    display: none;
+  }
+  .experience__codestates-date {
+    display: none;
+  }
+  .experience__hourglass-icon {
+    display: none;
+  }
+  .experience__hourglass i {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .experience__codestates-content {
+    height: 210px;
+  }
+}
+@media (max-width: 520px) {
+  .experience__codestates-content {
+    height: 240px;
+  }
+}
+@media (max-width: 450px) {
+  .experience__codestates-content {
+    height: 260px;
+  }
+}
+@media (max-width: 400px) {
+  #experience__container {
+    height: 450px;
+  }
+  .experience__codestates-content {
+    height: 280px;
+  }
+}
+@media (max-width: 350px) {
+  .experience__codestates-content {
+    height: 310px;
+  }
 }
